@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NaviBar from "./components/navBar/navbar";
-import Me from "./components/Me/Me";
+import MainPage from "./components/Me/MainPage";
 
 class LandingPage extends Component {
   render() {
@@ -10,7 +10,7 @@ class LandingPage extends Component {
           <NaviBar />
         </header>
         <div>
-          <Me />
+          <MainPage />
         </div>
       </div>
     );

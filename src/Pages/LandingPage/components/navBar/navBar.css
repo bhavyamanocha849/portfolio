@@ -1,3 +1,12 @@
 .navColor {
   background-color: rgb(46, 52, 64);
 }
+li a:hover:not(.active) {
+  background-color: rgba(216, 222, 233, 0.6);
+  color: white;
+}
+
+li.active {
+  background-color: #4c566a;
+  border-bottom: 2px solid #8fbcbb;
+}
