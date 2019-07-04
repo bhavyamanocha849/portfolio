@@ -28,6 +28,11 @@ class MainPage extends Component {
                 I am looking for a job, please hire me to do your awesome
                 website for your blooming business
               </p>
+              <p>
+                Since I'm passionate about technology, I'm always striving to
+                learn new stuffs. Which is why you can hire me with ease of
+                mind.
+              </p>
             </div>
             <p className="right-align" style={{ color: "#D8DEE9" }}>
               take a peek at my skills to see what I am capable of
@@ -134,12 +139,13 @@ class MainPage extends Component {
                 <div className="col s12 m6 center-align">
                   <div>
                     <h3 style={{ color: "#E5E9F0" }}>Back End skills</h3>
-                    <div>
+                    <div id="node" className="col s12 m6 center-align">
                       <img
                         src="https://nodejs.org/static/images/logo.svg"
                         alt=""
                         height="150px"
                       />
+                      <p style={{ color: "#E5E9F0" }}>Node</p>
                     </div>
                   </div>
                 </div>
@@ -148,12 +154,31 @@ class MainPage extends Component {
               <div className="column">
                 <div className="col s12 m6 center-align">
                   <div>
-                    <span style={{ color: "#E5E9F0" }}>Other Skills</span>
-                    <div>
+                    <h3 style={{ color: "#E5E9F0" }}>Other Skills</h3>
+                    <div id="git" className="col s12 m6 center-align">
                       <img
                         src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png"
                         alt=""
+                        style={{ height: "80px" }}
                       />
+                      <p style={{ color: "#E5E9F0" }}>Github </p>
+                    </div>
+
+                    <div id="sql" className="col s12 m6 center-align">
+                      <img
+                        src="https://seeklogo.com/images/M/MySQL-logo-F6FF285A58-seeklogo.com.png"
+                        alt=""
+                        style={{ height: "80px" }}
+                      />
+                      <p style={{ color: "#E5E9F0" }}>MySQL</p>
+                    </div>
+                    <div className="col s12 m6 center-align" id="mongodb">
+                      <img
+                        src="https://seeklogo.com/images/M/mongodb-logo-427DDF8FDE-seeklogo.com.png"
+                        alt=""
+                        style={{ height: "80px", width: "auto" }}
+                      />
+                      <p style={{ color: "#E5E9F0" }}>MongoDB</p>
                     </div>
                   </div>
                 </div>
@@ -162,83 +187,21 @@ class MainPage extends Component {
           </div>
         </section>
         <section id="works" className="section scrollspy">
-          <h1 className="center-align ">My Work</h1>
-          <div className="flow-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum." "Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum." "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum." "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum."
+          <div className="flow-text center-align">
+            <p>Site under construction</p>
+            <img
+              src="https://cdn.dribbble.com/users/1791559/screenshots/4465351/wip.gif"
+              alt=""
+            />
           </div>
         </section>
         <section id="contactMe" className="section scrollspy">
-          <h1 className="center-align">Contact Me</h1>
-          <div className="flow-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum." "Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum." "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum." "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum."
+          <div className="col s12 m6 l4 center-align">
+            <h4 style={{ color: "#E5E9F0", paddingBottom: "100px" }}>
+              To get in touch with me or just wanna drop by and say hi:
+            </h4>
+
+            <h5 style={{ color: "#E5E9F0" }}>htinwana.dev@gmail.com</h5>
           </div>
         </section>
       </div>
