@@ -139,7 +139,7 @@ class MainPage extends Component {
                 <div className="col s12 m6 center-align">
                   <div>
                     <h3 style={{ color: "#E5E9F0" }}>Back End skills</h3>
-                    <div id="node" className="col s12 m6 center-align">
+                    <div id="node">
                       <img
                         src="https://nodejs.org/static/images/logo.svg"
                         alt=""
