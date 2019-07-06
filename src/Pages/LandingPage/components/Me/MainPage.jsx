@@ -192,6 +192,7 @@ class MainPage extends Component {
             <img
               src="https://cdn.dribbble.com/users/1791559/screenshots/4465351/wip.gif"
               alt=""
+              style = {{ height:"auto", max-width:"100%"}}
             />
           </div>
         </section>
