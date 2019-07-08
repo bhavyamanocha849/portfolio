@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class MainPage extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <section id="me">
           <div className="container">
             <div
@@ -190,9 +190,9 @@ class MainPage extends Component {
           <div className="flow-text center-align">
             <p>Site under construction</p>
             <img
+              className="responsive-img"
               src="https://cdn.dribbble.com/users/1791559/screenshots/4465351/wip.gif"
               alt=""
-              style = {{ height:"auto", maxWidth:"100%"}}
             />
           </div>
         </section>
