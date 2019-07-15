@@ -5,19 +5,23 @@ class MainPage extends Component {
     return (
       <div className="container">
         <section id="me">
-          <div className="container">
-            <div
-              style={{
-                width: "300px",
-                height: "300px",
-                backgroundImage: "url(/img/IMG_8160.jpg)",
-                backgroundSize: "cover",
-                borderRadius: "100%",
-                backgroundPosition: "right top",
-                backgroundRepeat: "no-repeat",
-                margin: "auto"
-              }}
-            />
+          <div>
+            <div className="col s12 center-align">
+              <div
+                className="responsive-img center-align"
+                style={{
+                  width: "300px",
+                  height: "300px",
+                  backgroundImage: "url(/img/IMG_8160.jpg)",
+                  backgroundSize: "cover",
+                  borderRadius: "100%",
+                  backgroundPosition: "right top",
+                  backgroundRepeat: "no-repeat",
+                  margin: "auto"
+                }}
+              />
+            </div>
+
             <div
               className="center-align flow-text"
               style={{ color: "#D8DEE9" }}
