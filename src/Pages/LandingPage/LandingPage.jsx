@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import NaviBar from "./components/navBar/navbar";
-import MainPage from "./components/Me/MainPage";
+import MainPage from "../MainPage/MainPage";
+import NavBar from "../../components/navBar/NavBar";
+
 
 class LandingPage extends Component {
   render() {
     return (
       <div>
         <header>
-          <NaviBar />
+          <NavBar />
         </header>
         <div>
           <MainPage />

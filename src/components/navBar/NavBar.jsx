@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "materialize-css";
 
-class naviBar extends Component {
+
+class NavBar extends Component {
   render() {
     return (
       <nav className='nav-extended' style={{ backgroundColor: "#2E3440" }}>
@@ -38,4 +38,4 @@ class naviBar extends Component {
   }
 }
 
-export default naviBar;
+export default NavBar;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Skills from "./Skills/Skills";
-import Me from "./Me/Me";
+import Skills from "../../components/Skills/Skills";
+import Me from "../../components/Me/Me";
 
 class MainPage extends Component {
   render() {
