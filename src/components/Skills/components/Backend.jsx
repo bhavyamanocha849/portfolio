@@ -6,7 +6,7 @@ class Backend extends Component {
         return (<div className='column'>
             <div className='col s12 m6 center-align'>
                 <div>
-                    <h4 style={{ color: "#E5E9F0" }}>Back End skills</h4>
+                    <h4 className="hr" style={{ color: "#E5E9F0" }}>Back End skills</h4>
                     <div
                         id='node'
                         className='col s12 m6'

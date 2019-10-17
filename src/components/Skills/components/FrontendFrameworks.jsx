@@ -6,7 +6,7 @@ class FrontendFrameworks extends Component {
 
             <div className='col s12 center-align'>
                 <div>
-                    <h5 style={{ color: "#E5E9F0", paddingBottom: "25px" }}>
+                    <h5 className="hr" style={{ color: "#E5E9F0", paddingBottom: "25px" }}>
                         I like to use these frameworks</h5>
                 </div>
                 <div style={{ display: "flex", flexWrap: "wrap" }}>

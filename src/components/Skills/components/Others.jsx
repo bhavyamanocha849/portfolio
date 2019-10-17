@@ -6,7 +6,7 @@ class Others extends Component {
         return (<div className='column'>
             <div className='col s12 m6 center-align'>
                 <div>
-                    <h3 style={{ color: "#E5E9F0" }}>Other Skills</h3>
+                    <h3 className="hr" style={{ color: "#E5E9F0" }}>Other Skills</h3>
                     <div id='git' className='col s6 m6 center-align'>
                         <img
                             src='https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png'

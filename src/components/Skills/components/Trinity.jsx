@@ -5,7 +5,7 @@ class Trinity extends Component {
     render() {
         return (
             <div className="center-align">
-                <h3 style={{ paddingBottom: "25px", color: "#E5E9F0" }}>
+                <h3 className="hr" style={{ paddingBottom: "25px", color: "#E5E9F0" }}>
                     Front-end Related Skills</h3>
                 <div>
                     <div style={{ display: "flex", flexWrap: "wrap" }}>
